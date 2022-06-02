@@ -1,4 +1,4 @@
-const UsersRouter = require('./lolo/routes.config');
+const UsersRouter = require('./users/routes.config');
 const port = process.env.PORT || 3000;
 const express = require('express');
 const app = express();
